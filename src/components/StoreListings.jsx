@@ -5,79 +5,85 @@ import Col from "react-bootstrap/Col";
 
 const StoreListings = () => {
   return (
-    <div style={{ margin: "auto" }}>
-      <h2
-        style={{
-          fontSize: "36px",
-          lineHeight: "50px",
-          marginTop: "20px",
-          textAlign: "center",
-          fontWeight: "normal",
-        }}
-      >
-        Browse stores in Houston
-      </h2>
-      <Container style={{ marginTop: "50px", textAlign: "center" }}>
-        <Row
-          style={{
-            borderBottom: "1px solid #E8E9EB",
-            display: "flex",
-            justifyContent: "space-evenly",
-          }}
-        >
-          <Row>
-            <Col xs=".5">
-              <Image
-                style={{
-                  height: "55px",
-                  width: "50px",
-                  border: "1px solid #E8E9EB",
-                }}
-                src="https://d2d8wwwkmhfcva.cloudfront.net/96x96/d2lnr5mha7bycj.cloudfront.net/warehouse/logo/12/2774c343-1319-4720-a54f-0c46e93f956c.png"
-              />
-            </Col>
-            <Col style={{ textAlign: "left" }}>
-              <h5 style={{ fontWeight: "bold" }}>ALDI</h5>
-              <p>Delivery * Pickup</p>
-            </Col>
-          </Row>
-          <Col sm="1"></Col>
-          <Row>
-            <Col xs=".5">
-              <Image
-                style={{
-                  height: "50px",
-                  width: "50px",
-                  border: "1px solid #E8E9EB",
-                }}
-                src="https://d2d8wwwkmhfcva.cloudfront.net/96x96/d2lnr5mha7bycj.cloudfront.net/warehouse/logo/279/0d43b5d2-9d07-4a30-a0ee-0e16d5922411.png"
-              />
-            </Col>
-            <Col style={{ textAlign: "left" }}>
-              <h5 style={{ fontWeight: "bold" }}>Sprouts Farmers Market</h5>
-              <p>Delivery * Pickup</p>
-            </Col>
-          </Row>
-          <Col sm="1"></Col>
-          <Row>
-            <Col xs=".5">
-              <Image
-                style={{
-                  height: "50px",
-                  width: "50px",
-                  border: "1px solid #E8E9EB",
-                }}
-                src="https://d2d8wwwkmhfcva.cloudfront.net/96x96/d2lnr5mha7bycj.cloudfront.net/warehouse/logo/45/d10d0f4b-1fca-4b84-bc19-bbf492c040da.png"
-              />
-            </Col>
-            <Col md="6">
-              <h5 style={{ fontWeight: "bold" }}>Kroger</h5>
-              <p>Delivery</p>
-            </Col>
-          </Row>
-        </Row>
-      </Container>
+    <div class="css-5mrw39-Hero">
+      <div class="css-lyxrpb">
+        <h2 class="css-yrjayn">
+          Choose your store in
+          <span tabindex="0" role="button" class="css-1io1d4t">
+            Chicago
+          </span>
+        </h2>
+        <div class="css-121kum4">
+          <ul class="css-mtoayx">
+            <li>
+              <button class="css-1rgc6v9-RetailerCard">
+                <div class="css-1lgfmkt">
+                  <p class="css-3w8d2s">Aldi</p>
+                  <p class="css-vdmd31">
+                    <span>
+                      <span>Delivery</span>
+                      <span class="css-mt4569">&</span>
+                    </span>
+                    <span>
+                      <span>Pickup 2.2mi</span>
+                    </span>
+                  </p>
+                </div>
+                <div class="css-16807jx">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="#c78cd"
+                    xmlns="http://www.w3.org/2000/svg"
+                    size="24"
+                    color="systemGrayscale30"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.879 12l-5.94-5.94a1.5 1.5 0 012.122-2.12l7 7a1.5 1.5 0 010 2.12l-7 7a1.5 1.5 0 01-2.122-2.12L16.88 12z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </li>
+            <li>
+              <button class="css-1rgc6v9-RetailerCard">
+                <div class="css-1lgfmkt">
+                  <p class="css-3w8d2s">Aldi</p>
+                  <p class="css-vdmd31">
+                    <span>
+                      <span>Delivery</span>
+                      <span class="css-mt4569">&</span>
+                    </span>
+                    <span>
+                      <span>Pickup 2.2mi</span>
+                    </span>
+                  </p>
+                </div>
+                <div class="css-16807jx">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="#c78cd"
+                    xmlns="http://www.w3.org/2000/svg"
+                    size="24"
+                    color="systemGrayscale30"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.879 12l-5.94-5.94a1.5 1.5 0 012.122-2.12l7 7a1.5 1.5 0 010 2.12l-7 7a1.5 1.5 0 01-2.122-2.12L16.88 12z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };
+
 export default StoreListings;
